@@ -1,1 +1,0 @@
-Additional Wait for 6 seconds.
