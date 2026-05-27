@@ -9,7 +9,6 @@ const credentials_login_dataSet = JSON.parse(JSON.stringify(require('../../testD
 test('Section_11_RS_UI_Tests - POM_Optimized_Login_TestData_JSON', async ({page} )=> {
 
     // const data_login_username = "testtmail95@gmail.com";
-    // const data_login_password = "HiRahul@123";
 
     const data_login_username = credentials_login_dataSet.valid_username_1;
     const data_login_password = credentials_login_dataSet.valid_password_1;

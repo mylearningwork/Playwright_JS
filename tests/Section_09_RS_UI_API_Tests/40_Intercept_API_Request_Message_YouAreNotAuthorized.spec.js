@@ -1,16 +1,6 @@
-/**  
-* @author Rajat Verma
-* https://www.linkedin.com/in/rajat-v-3b0685128/
-* https://github.com/rajatt95
-* https://rajatt95.github.io/ 
-*  
-* Course: Playwright JS Automation Testing from Scratch with Framework (https://www.udemy.com/course/playwright-tutorials-automation-testing/)
-* Tutor: Rahul Shetty (https://www.udemy.com/user/rahul445/)
-*/
-
 const {test,expect} = require('@playwright/test');
 
-test('Section_09_RS_UI_API_Tests - RahulShettyAcademy Client App Login - Intercept_API_Request_Message_YouAreNotAuthorized', async ({page})=> {
+test('Section_09_RS_UI_API_Tests - Practice Client App Login - Intercept_API_Request_Message_YouAreNotAuthorized', async ({page})=> {
    
     await page.goto('https://www.rahulshettyacademy.com/client/');
     await page.locator('#userEmail').fill('testtmail95@gmail.com');

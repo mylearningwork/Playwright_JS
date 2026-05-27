@@ -22,9 +22,9 @@ test('Section_03_RS_UI_Tests - fill() method usage', async ({page} )=> {
     await expect(page).toHaveTitle(expectedApplicationTitle);
 
     //Playwright will look for the element having CSS selector '#username' and once
-    // it finds the element, then, it will fill 'rahulshetty'
-    //await page.locator('#username').type('rahulshettyacademy');
-    await txtBox_username.type('rahulshetty');
+    // it finds the element, then, it will fill 'practice_user'
+    //await page.locator('#username').type('practice_user');
+    await txtBox_username.type('practice_user');
 
     await txtBox_password.type('learning');
 

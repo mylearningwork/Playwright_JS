@@ -1,7 +1,7 @@
 
 const {test,expect} = require('@playwright/test');
 
-test('Section_09_RS_UI_API_Tests - RahulShettyAcademy Client App Login - API_Log_RequestURLs_ResponseStatusCode', async ({page})=> {
+test('Section_09_RS_UI_API_Tests - Practice Client App Login - API_Log_RequestURLs_ResponseStatusCode', async ({page})=> {
  
     //on() -> It is an event
     page.on('request', request=>

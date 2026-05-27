@@ -13,9 +13,9 @@ test('Section_03_RS_UI_Tests - Fill value in TextBox using type() and Click on B
     await expect(page).toHaveTitle('LoginPage Practise | Rahul Shetty Academy');
 
     //Playwright will look for the element having CSS selector '#username' and once
-    // it finds the element, then, it will fill 'rahulshetty'
-    //await page.locator('#username').type('rahulshettyacademy');
-    await page.locator('#username').type('rahulshetty');
+    // it finds the element, then, it will fill 'practice_user'
+    //await page.locator('#username').type('practice_user');
+    await page.locator('#username').type('practice_user');
 
     await page.locator('#password').type('learning');    
 

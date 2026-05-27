@@ -1,13 +1,3 @@
-/**  
-* @author Rajat Verma
-* https://www.linkedin.com/in/rajat-v-3b0685128/
-* https://github.com/rajatt95
-* https://rajatt95.github.io/ 
-*  
-* Course: Playwright JS Automation Testing from Scratch with Framework (https://www.udemy.com/course/playwright-tutorials-automation-testing/)
-* Tutor: Rahul Shetty (https://www.udemy.com/user/rahul445/)
-*/
-
 const {test,expect, request} = require('@playwright/test');
 
 let api_login_token;
@@ -108,7 +98,7 @@ test.afterEach(async() => {
 });
 
 
-test('Section_08_RS_UI_API_Tests - RahulShettyAcademy Client App - Skip Login and Create Order using API call - Assert Order ID on Order History Page', async ({page} )=> {
+test('Section_08_RS_UI_API_Tests - Practice Client App - Skip Login and Create Order using API call - Assert Order ID on Order History Page', async ({page} )=> {
     const tab_Orders = page.locator("[routerlink='/dashboard/myorders']");
     await tab_Orders.click();
 

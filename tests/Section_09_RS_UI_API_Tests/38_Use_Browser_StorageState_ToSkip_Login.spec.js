@@ -1,13 +1,3 @@
-/**  
-* @author Rajat Verma
-* https://www.linkedin.com/in/rajat-v-3b0685128/
-* https://github.com/rajatt95
-* https://rajatt95.github.io/ 
-*  
-* Course: Playwright JS Automation Testing from Scratch with Framework (https://www.udemy.com/course/playwright-tutorials-automation-testing/)
-* Tutor: Rahul Shetty (https://www.udemy.com/user/rahul445/)
-*/
-
 const {test,expect} = require('@playwright/test');
 
 const applicationURL = "https://www.rahulshettyacademy.com/client/";
@@ -32,7 +22,7 @@ test.beforeAll(async({browser})=>{
 
 });//beforeAll
 
-test('Section_09_RS_UI_API_Tests - RahulShettyAcademy Client App Login - Skip Login using Browser Context (JSON file): Assert Tab - Home', async ()=> {
+test('Section_09_RS_UI_API_Tests - Practice Client App Login - Skip Login using Browser Context (JSON file): Assert Tab - Home', async ()=> {
     const page = await webContext.newPage(); 
     page.goto(applicationURL);
     const tab_Home = page.locator("[routerlink='/dashboard/']");
@@ -41,7 +31,7 @@ test('Section_09_RS_UI_API_Tests - RahulShettyAcademy Client App Login - Skip Lo
     
 });
 
-test('Section_09_RS_UI_API_Tests - RahulShettyAcademy Client App Login - Skip Login using Browser Context (JSON file): Assert Tab - Sign Out', async ()=> {
+test('Section_09_RS_UI_API_Tests - Practice Client App Login - Skip Login using Browser Context (JSON file): Assert Tab - Sign Out', async ()=> {
     const page = await webContext.newPage(); 
     page.goto(applicationURL);
     const tab_SignOut = page.locator("[class='fa fa-sign-out']");

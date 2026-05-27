@@ -1,6 +1,6 @@
 const {test,expect} = require('@playwright/test');
 
-test('Section_10_RS_UI_Tests - RahulShettyAcademy Automation Practice App - Screenshot', async ({page} )=> {
+test('Section_10_RS_UI_Tests - Automation Practice App - Screenshot', async ({page} )=> {
 
     const applicationURL = "https://rahulshettyacademy.com/AutomationPractice/";
 

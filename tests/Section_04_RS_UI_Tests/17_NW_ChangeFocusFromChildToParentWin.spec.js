@@ -34,15 +34,15 @@ test('Section_04_RS_UI_Tests - Change Focus From Child To Parent Window', async 
 
     /**************** Operations on Parent Window - START ****************/
 
-    console.log("Filling 'Rajat Verma' in username textbox present on parent window");
-    await page.locator('#username').fill("Rajat Verma");
+    console.log("Filling 'Test User' in username textbox present on parent window");
+    await page.locator('#username').fill("Test User");
 
     //await page.pause();
 
     console.log("await page.locator('#username').textContent(): " + await page.locator('#username').textContent());
     
-    // console.log("Assertion for username textbox - It should contain text: 'Rajat Verma'")
-    // await expect(page.locator('#username')).toContainText('Rajat Verma');
+    // console.log("Assertion for username textbox - It should contain text: 'Test User'")
+    // await expect(page.locator('#username')).toContainText('Test User');
 
     await new Promise(resolve => setTimeout(resolve, 4000)); // 4 sec
 

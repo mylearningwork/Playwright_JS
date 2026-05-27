@@ -1,7 +1,7 @@
 
 const {test,expect} = require('@playwright/test');
 
-test('Section_09_RS_UI_API_Tests - RahulShettyAcademy Client App Login - Intercept_API_Block_NetworkCalls - BLOCK', async ({page})=> {
+test('Section_09_RS_UI_API_Tests - Practice Client App Login - Intercept_API_Block_NetworkCalls - BLOCK', async ({page})=> {
    
     
     // Intercept -> Block Network call
@@ -18,7 +18,7 @@ test('Section_09_RS_UI_API_Tests - RahulShettyAcademy Client App Login - Interce
     
 });
 
-test('Section_09_RS_UI_API_Tests - RahulShettyAcademy Client App Login - Intercept_API_Block_NetworkCalls - DO NOT BLOCK', async ({page})=> {
+test('Section_09_RS_UI_API_Tests - Practice Client App Login - Intercept_API_Block_NetworkCalls - DO NOT BLOCK', async ({page})=> {
    
     
     // // Intercept -> Block Network call
