@@ -303,3 +303,26 @@ if (require.main === module) {
 }
 
 module.exports = exercises;
+/*
+How it works:
+1. This file collects many small practice functions in one place.
+2. demo() calls each function with sample data.
+3. module.exports exposes the functions so they can be reused from another file.
+Detailed execution flow:
+1. The sample console.log() at the bottom calls the function with demo input.
+2. JavaScript enters the function and runs each statement from top to bottom.
+3. Helper variables such as arrays, objects, counters, or Sets store intermediate values.
+4. The return statement sends the final answer back to the caller.
+5. console.log() prints that returned answer so you can verify the result.
+
+Key JavaScript concepts used:
+1. Set is used to keep unique values or check membership quickly.
+2. filter() creates a new array with only the values that pass a condition.
+3. reduce() combines array values into one final result, such as a sum or count.
+4. map() creates a new array by transforming every item.
+5. sort() arranges array values based on the comparison logic.
+
+Try it yourself:
+1. Change the input inside console.log().
+2. Run this file with node to compare the new output.
+*/
